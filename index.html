@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services - Twin Cities Animal Rescue</title>
+    <title>Home - Twin Cities Animal Rescue</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,42 +12,45 @@
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="services.html">Services & Programs</a></li>
+                <li><a href="services.html">Services</a></li>
                 <li><a href="about.html">About Us</a></li>
-                <li><a href="contact.html">Contact & Volunteer</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <h1>Our Rescue Programs & Services</h1>
-        <p>Discover how we match pets with families and how you can get involved in our rescue programs.</p>
+        <h1>Giving Every Pet a Second Chance</h1>
+        <p>Our mission is to rescue, rehabilitate, and rehome vulnerable animals while supporting responsible pet ownership across the community.</p>
 
-        <div class="card-container">
+        <picture>
+            <source media="(min-width: 800px)" srcset="rescue-feature-large_c.png">
+            <img src="rescue-feature-small_c.png" alt="Volunteer walking a rescued dog outdoors">
+        </picture>
+
+        <div class="grid-container">
             <div class="card">
-                <h2>Adoption Process</h2>
-                <p>Browse our available pets, submit an application, and schedule a meet-and-greet to find your new family member.</p>
-                <img src="rescue-pet_c.jpg" alt="A cute brown guinea pig looking directly at the camera">
+                <h2>Our Impact</h2>
+                <p>Over 1,200 pets safely placed in permanent homes last year, supported by active volunteers.</p>
             </div>
             <div class="card">
-                <h2>Foster Program</h2>
-                <p>Provide a temporary loving home while we cover all medical expenses and supplies needed for the animal.</p>
-            </div>
-            <div class="card">
-                <h2>Volunteer Roles</h2>
-                <p>Join our team of dedicated helpers for animal socialization, event organizing, and daily shelter support.</p>
+                <h2>Get Involved</h2>
+                <p>Join our network of fosters, volunteers, and donors to change animal lives today.</p>
             </div>
         </div>
 
-        <figure>
-            <img src="rescue-pet-spotlight_c.jpg" alt="A tabby cat with striking yellow and green eyes looking curiously">
-            <figcaption>Pet Spotlight: Meet our featured pet currently looking for a permanent loving home.</figcaption>
-        </figure>
+        <section class="card" style="margin-top: 2rem;">
+            <h2>Coordinator Message</h2>
+            <video controls width="100%">
+                <source src="rescue-message_c.mp4" type="video/mp4">
+                <p>Your browser does not support video. Transcript: Welcome to Twin Cities Animal Rescue. Every adoption saves a life.</p>
+            </video>
+        </section>
     </main>
 
     <footer>
         <p>&copy; 2026 Twin Cities Animal Rescue. All rights reserved.</p>
     </footer>
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
